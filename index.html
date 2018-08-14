@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Dosis|Gugi|Oswald" rel="stylesheet">
+
+    <!-- CSS LINK -->
+    <link href="stylesheet.css" rel="stylesheet">
+    <title>"CRICKET GAME"</title>
+</head>
+
+<body>
+
+    <!-- Welcome Screen -->
+
+    <div class="welcomeScreen">
+        <span id="firstScreen" style="display:none;">
+            <h1>Welcome to the game of Cricket</h1>
+            <br />
+            <br/>
+            <h3>Enter Your Team Name:</h3>
+            <br/>
+            <br/>
+
+            <input type="text" id="teamName" placeholder="Pakistan" />
+            <button id="start" onclick="nameFunc()">Start Match</button>
+        </span>
+    </div>
+
+
+
+    <!-- TOSS SCREEN -->
+
+    <div class="tossScreen">
+        <span id="toss" style="display:none;">
+            <h3>TOSS</h3>
+            <button type="button" onclick="checkToss(value)" value="1" class="but">Odd</button>
+            <button type="button" onclick="checkToss(value)" value="0" class="but">Even</button>
+        </span>
+    </div>
+
+
+    <!-- Bat OR BALL Selection -->
+    <span id="ask_user_bat" style="display:none;">
+        <h3 id="tossStatus"></h3>
+        <br/>
+        <button type="button" onclick="checkMode(value)" value="1" class="but2">Bat</button>
+        <button type="button" onclick="checkMode(value)" value="0" class="but2">Ball</button>
+    </span>
+
+
+    <!-- Main  -->
+    <span id="mainScreen" style="display: none;">
+        <div class="playBtn">
+            <img src="Img/ball.jpeg" onClick="UpdateScores()" alt="ballImage" id="ball" />
+        </div>
+
+        <!-- 2 DIVIDERS -->
+        <div class="divider">
+            <div id="top1"></div>
+        </div>
+
+        <p id="Target">Target: <span id="totalTarget"></span></p>
+
+
+        <p id="Balls">Balls:<span id="totalBalls">open Console</span></p>
+    </span>
+
+
+
+    <script src="Script.js"></script>
+</body>
+
+</html>

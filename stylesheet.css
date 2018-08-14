@@ -1,0 +1,148 @@
+
+
+/* Welcome Screen */
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #C5E1A5;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    background-color: yellowgreen;  
+    text-shadow: 1px 3px 5px black;   
+    font-family: 'Gugi', cursive;
+    text-transform: capitalize; 
+    font-size: 3em;
+}
+
+#firstScreen h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2em;
+    float: left;
+    margin: 5% 0% 5% 6%;
+    
+}
+#teamName {
+    float: left;
+    margin: 3% 1% 3% 1%;
+    padding: 6px;
+    width: 50%;
+    font-size: 1em;
+    box-shadow: 3px 3px 5px #33691E;
+    border-style: solid;
+    border-color: white;
+    border-radius: 1em;
+    font-family: 'Dosis', sans-serif;
+}
+
+#start {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1em;
+    float: left;
+    margin: 3% 2% 3% 0%;
+    padding: 9px;
+    width: 100px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* Toss Screen */
+
+.tossScreen {
+	text-align: center;
+}
+.tossScreen h3{
+	font-family: 'Oswald', sans-serif;
+    font-size: 5.2em;
+    text-transform: uppercase;
+    color: white;
+    background-color: yellowgreen;  
+    text-shadow: 1px 3px 5px black;       
+}
+
+.tossScreen .but {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: white;
+    background-color: yellowgreen;
+    border: 0px solid;
+    border-radius: 25px;
+    box-shadow: 2px 3px 5px black;
+    cursor: pointer;
+    width: 350px;
+    padding: 8%;
+    margin: 0% 5% 5% 5%;
+}
+
+/* Bat OR BALL Selection  */
+
+#ask_user_bat h3{
+	font-family: 'Oswald', sans-serif;
+    font-size: 4.2em;
+    text-transform: uppercase;
+    color: white;
+    background-color: yellowgreen;  
+    text-shadow: 1px 3px 5px black;       
+}
+
+#ask_user_bat .but2 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: white;
+    background-color: yellowgreen;
+    border: 0px solid;
+    border-radius: 25px;
+    box-shadow: 2px 3px 5px black;
+    cursor: pointer;
+    width: 350px;
+    padding: 8%;
+    margin: 0% 5% 5% 5%;
+}
+
+/* Main  */
+
+#ball{
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    margin-top: 15%;   
+}
+
+#top1 {
+    height: 10px;
+    width: 100%;
+    border-style: solid none;
+    border-width: 3px 0px 3px 0px;
+    border-color: brown black gray black;
+    border-radius: 10px;
+    margin-top: 28%;
+}
+
+#Target {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 15px;
+    /* border:1px solid brown; */
+    float: left;
+}
+
+#Balls {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 15px;
+    /* border:1px solid brown; */
+    float: none;
+}
